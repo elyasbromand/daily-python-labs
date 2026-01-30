@@ -1,7 +1,8 @@
-x = float(input("Enter value for x: "))
-y = float(input("Enter value for y: "))
+def main():
+    name = input("Enter your name: ")
+    hello(name)
 
-z = x + y
+def hello(to = "World"):
+    print("Hello,", to)
 
-
-print(f"The sum is {z:,}")
+main()
