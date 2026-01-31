@@ -1,4 +1,1 @@
-i = 3
-while i !=0 :
-    print ("Meow")
-    i -= 1
+print("Meow \n" * 3, end="") 
