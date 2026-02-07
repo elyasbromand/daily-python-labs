@@ -1,5 +1,8 @@
 import random
 
-number = random.randint(1, 10)
+cards = ["Jack", "Queen", "King"]
 
-print(number)
+random.shuffle(cards)
+
+for card in cards:
+    print(card)
